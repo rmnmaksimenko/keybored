@@ -1,0 +1,196 @@
+.p {
+}
+
+body {
+  font-family: monospace;
+  background-color: #444;
+  color: #ccc;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  margin: 3px;
+  padding: 0;
+}
+
+.container {
+  margin-left: 600px;
+
+  margin-top: 150px;
+}
+
+.row > li > p {
+  display: flex;
+  text-align: center;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10%;
+  padding: 15px 18px;
+}
+
+.row-second > li:first-child > p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row-third > li:first-child > p {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.row-fourth > li:first-child > p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* #################################### */
+/* ######## можно использовать ######## */
+/* #################################### */
+
+.q,
+.w,
+.e,
+.r,
+.t,
+.a,
+.s,
+.d,
+.f,
+.g,
+.z,
+.x,
+.c,
+.d,
+.f,
+.z,
+.x,
+.c,
+.v {
+  background-color: teal;
+}
+
+/* #################################### */
+/* ########### используется  ########### */
+/* #################################### */
+
+.w,
+.a,
+.d {
+  background-color: rgb(0, 128, 17);
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.nine,
+.q,
+.e,
+.r,
+.t,
+.bracket-left,
+.l,
+.s,
+.f,
+.g,
+.tilde {
+  background-color: rgb(0, 128, 17);
+}
+
+/* #################################### */
+/* ## используется, но лучше поменять ## */
+/* #################################### */
+
+.six,
+.null,
+.o {
+  background-color: rgb(221, 174, 21);
+  color: rgb(0, 0, 100);
+}
+
+/* ############################################ */
+/* используется, категорически не рекомендуется */
+/* ############################################ */
+
+.seven,
+.eight,
+.y,
+.bracket-right,
+.equal-sign {
+  background-color: tomato;
+  color: rgb(255, 255, 255);
+}
+
+/* - - - - - - - - A L T - - - - - - - - */
+
+/* #################################### */
+/* ######## можно использовать ######## */
+/* #################################### */
+
+.alt-two,
+.alt-three,
+.alt-four,
+.alt-q,
+.alt-w,
+.alt-e,
+.alt-r,
+.alt-a,
+.alt-s,
+.alt-d,
+.alt-f,
+.alt-v {
+  background-color: teal;
+}
+
+/* #################################### */
+/* ########### используется  ########### */
+/* #################################### */
+
+.alt-d {
+  background-color: rgb(0, 128, 17);
+}
+
+/* - - - - - оформление - - - - - */
+
+.row-fifth > li > p {
+  width: 62px;
+}
+.row-fifth > li:nth-child(4) > p {
+  width: 300px;
+  border-radius: 5%;
+}
+
+.page-list {
+  margin-left: 100px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.page-first,
+.page-second {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-first {
+  margin-right: 60px;
+}
+
+.page-first:hover,
+.page-first:focus,
+.page-second:hover,
+.page-second:focus {
+  color: teal;
+}
